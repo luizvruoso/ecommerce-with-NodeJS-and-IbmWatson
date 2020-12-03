@@ -12,6 +12,9 @@ module.exports = function (route) {
         route.app.controller.controllerStore.index(route, req, res);
         //route acessa o app, o app o controller que enfim acessa chatbot que renderiza index;
     });
+    route.get('/produto', function (req, res) {
+        route.app.controller.controllerStore.produto(route, req, res);
+    });
     
     route.get('/chatbot', function (req, res) {
         route.app.controller.controllerStore.chatbot(route, req, res);
@@ -20,5 +23,5 @@ module.exports = function (route) {
     route.post('/assistant', function (req, res) {
         route.app.controller.controllerStore.callAssistant(route, req, res);
     });
-
+   
 }

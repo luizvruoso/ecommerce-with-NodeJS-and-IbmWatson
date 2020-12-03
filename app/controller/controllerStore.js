@@ -32,3 +32,9 @@ module.exports.callAssistant = function (app, req, res) {
 
 
 };
+
+module.exports.produto =  function (app, req, res) {
+    res.render('produto');
+
+
+};
