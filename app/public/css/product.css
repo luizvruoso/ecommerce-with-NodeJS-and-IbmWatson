@@ -22,13 +22,14 @@
     width: 35%;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 00px;
     padding: 0px;
     border: 1px solid #ccc;
     font-weight: 400;
     color: #272727;
 }
 #desc-prod {
+    margin-top: 0px;
     font-size: 14px;
     text-align: justify;
 }
@@ -41,4 +42,20 @@
     padding: 20px;
     text-align: center;
     border: 1px solid rgb(233, 232, 232);
+}
+
+@media(max-width: 768px){
+
+    #button-prod {
+        width: 60%;
+        height: 50px;
+    }
+    #title-prod,#button-prod{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    #desc-prod{
+        margin-top:20px ;
+        margin-bottom: 10px;
+    }
 }

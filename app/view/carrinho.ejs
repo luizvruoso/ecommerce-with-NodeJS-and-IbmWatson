@@ -1,0 +1,66 @@
+<% pageTitle = 'Carrinho' %>
+<%- include ("assets/header") %>
+<%- include ("assets/menu") %>
+<%- include ("assets/chatbot") %>
+
+<link rel="stylesheet" href="css/cart.css">
+
+<div class="container" style="margin-bottom: 50px;">
+    
+    <div class="row">
+        <div class="col-12">
+
+          <p style=" color: #72659D;font-size: 30px;font-weight: 600;"> CARRINHO </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-12">
+
+            <div class="container-orcamento">
+                <table border="1" width="100%" style="border: 1px solid #ccc">
+                    <tr style="background-color: #e6e6e6; ">
+                        <td></td>
+                        <td>Nome</td>
+                        <td>Qtd</td>
+                        <td>Valor</td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/margaridas.jpg" width="80"></td>
+                        <td>Margaridas</td>
+                        <td>1</td>
+                        <td>R$ 50,00</td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/margaridas.jpg" width="80"></td>
+                        <td>Margaridas</td>
+                        <td>1</td>
+                        <td>R$ 50,00</td>
+                    </tr>
+                </table>
+
+               
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <div class="row" style="text-align: right; margin-top: 20px;">
+        <div class="col-12" >
+            <span style="font-size: 25px;color: #72659D;font-weight: 600;"> R$ 100,00 </span>
+        </div>
+        <div class="col-12" style="margin-top: 10px;">
+            <button style="width: 30%;height: 50px;border: 1px solid #ccc;">Finalizar Compra</button>
+            </div>
+    </div>
+
+</div>
+
+
+<%- include ("assets/footer") %>
