@@ -1,0 +1,9 @@
+.item-orcamento span {
+    margin: 100px;
+}
+.container-orcamento {
+    text-align: center;
+}
+.container-orcamento table td {
+    padding: 20px;
+}

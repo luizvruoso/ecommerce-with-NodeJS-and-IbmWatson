@@ -7,6 +7,10 @@ module.exports.chatbot = function (app, req, res) {
     res.render('chatbot');
 };
 
+module.exports.carrinho = function (app, req, res) {
+    res.render('carrinho');
+};
+
 module.exports.callAssistant = function (app, req, res) {
     const ibmWatson = require('../lib/ibmWatsonCredentials');
 
@@ -29,6 +33,12 @@ module.exports.callAssistant = function (app, req, res) {
         }
     );
 
+
+
+};
+
+module.exports.produto =  function (app, req, res) {
+    res.render('produto');
 
 
 };

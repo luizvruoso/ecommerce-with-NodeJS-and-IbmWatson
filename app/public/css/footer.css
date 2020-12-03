@@ -1,0 +1,21 @@
+.footer{
+    background-image: url(../img/rodape.jpg);
+    height: 450px;
+    padding: 50px;
+
+}
+span.desc-footer {
+    display: table;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #fff;
+}
+.title-footer{
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.social-icons{
+    margin-left: 20px ;
+}
