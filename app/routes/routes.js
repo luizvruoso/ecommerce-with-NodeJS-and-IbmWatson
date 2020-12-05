@@ -27,5 +27,7 @@ module.exports = function (route) {
     route.post('/assistant', function (req, res) {
         route.app.controller.controllerStore.callAssistant(route, req, res);
     });
-   
+    route.post('/speechToText', function (req, res) {
+        route.app.controller.controllerStore.speechToText(route, req, res);
+    });
 }

@@ -37,3 +37,17 @@ function sendMessageToAssistant(){
     });
 
 }
+
+function triggerAudioToText(link){
+    $.post("/speechToText",
+    {link},
+    
+    function(ret, status){
+    console.log(ret);   
+    }
+
+    ).fail(function(returnedData){
+        alert('Erro'+returnedData + ' ' + returnedData);
+    });
+
+}
