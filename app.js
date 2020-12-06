@@ -21,10 +21,8 @@ app.use(function (req, res, next) {
 		res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
 	next();
 });
+app.listen(process.env.PORT || 5000);
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
-});
 
 consign()
 	.include('app/routes')
