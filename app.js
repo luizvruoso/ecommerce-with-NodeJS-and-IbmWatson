@@ -25,7 +25,7 @@ app.listen(process.env.PORT || 5000);
 
 
 consign()
-	.include('./app/routes')
-	.then('./app/controller')
+	.include('./routes')
+	.then('./controller')
 	.into(app);
 module.exports = app;
