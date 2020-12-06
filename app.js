@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.set('views', process.cwd()+'/app/view');
 
 
-app.use(express.static(process.cwd()+'/public'));
+app.use(express.static(process.cwd()+'/app/public'));
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({
 	extended: false
