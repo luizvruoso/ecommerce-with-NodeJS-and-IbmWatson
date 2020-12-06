@@ -5,10 +5,10 @@ var consign = require('consign');
 
 
 app.set('view engine', 'ejs');
-app.set('views', './app/view');
+app.set('views', process.cwd()+'/view');
 
 
-app.use(express.static('./app/public'));
+app.use(express.static(process.cwd()+'/public'));
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({
 	extended: false
