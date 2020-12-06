@@ -1,6 +1,6 @@
 
 module.exports.index = function (app, req, res) {
-    res.render('index');
+    res.render('/index');
 };
 
 module.exports.chatbot = function (app, req, res) {
