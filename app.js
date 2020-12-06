@@ -5,7 +5,7 @@ var consign = require('consign');
 
 
 app.set('view engine', 'ejs');
-app.set('views', process.cwd()+'/view');
+app.set('views', process.cwd()+'/app/view');
 
 
 app.use(express.static(process.cwd()+'/public'));
