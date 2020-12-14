@@ -1,4 +1,4 @@
-var isOpen = false;
+var isOpen = true;
 function minChatbot(){
     if(isOpen){
         document.getElementById('body-container').style.display = "none";

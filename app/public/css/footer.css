@@ -4,15 +4,6 @@
     padding: 50px;
 
 }
-@media(max-width: 768px){
-    .footer{
-        background-image: url(../img/rodape.jpg);
-        height: 100%;
-        margin-bottom: 30px;
-        padding: 0px !important;
-    
-    }
-}
 span.desc-footer {
     display: table;
     margin-left: 20px;

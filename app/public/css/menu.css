@@ -1,21 +1,3 @@
 li.nav-item a {
     color: #7158a7 !important;
 }
-#cart{
-    float: right !important; 
-    margin-right:20px ;
-    position: absolute; 
-    right: 0; 
-    top: 30px; 
-    bottom: 0;
-}
-@media(max-width: 768px){
-    #cart{
-        float: right !important;
-        margin-right: 20px;
-        position: static;
-        right: 0;
-        top: 30px;
-        bottom: 0;
-    }
-}
